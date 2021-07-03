@@ -26,6 +26,7 @@ jobs:
             - name: 安装依赖包
               run: |
                   npm install
+                  npm install canvas
             - name: "运行【宠汪汪兑换】"
               run: |
                   node onlyOneExecute.js
